@@ -1,0 +1,6 @@
+{
+    "MessageUI.framework": 2,
+    "Social.framework": 1,
+    "CoreLocation.framework": 1,
+    "SystemConfiguration.framework": 1
+}

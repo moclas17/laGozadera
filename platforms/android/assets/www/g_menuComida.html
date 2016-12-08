@@ -1,0 +1,73 @@
+<ons-navigator animation="slide" var="gallery">  
+  <ons-page>
+    <ons-toolbar modifier="opacity">
+      <div class="left">
+        <ons-toolbar-button ng-click="menu.toggle()"><ons-icon icon="ion-navicon-round" fixed-width="false"></ons-icon></ons-toolbar-button>
+      </div>
+      <div class="center">Menu la Gozadera</div>
+    </ons-toolbar>
+
+    <div class="app-page">
+      <div class="app-page-menu">
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('m_entradas.html');">
+              <img src="images/menu/breakfast.png">
+              <p>Entradas</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('m_ninos.html');">
+              <img src="images/menu/salads.png">
+              <p>Para ni&ntilde;os</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('m_pocomas.html');">
+              <img src="images/menu/breakfast.png">
+              <p>Un poco mas</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('m_degustacion.html');">
+              <img src="images/menu/breakfast.png">
+              <p>Degustacion</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('m_principal.html');">
+              <img src="images/menu/mains.png">
+              <p>Principal</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>        
+        <ons-row>
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('m_postres.html');">
+              <img src="images/menu/desserts.png">
+              <p>Postres</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>
+        
+          <ons-col>
+            <ons-button modifier="clean" ng-click="gallery.pushPage('m_extras.html');">
+              <img src="images/menu/mains.png">
+              <p>Extras</p>
+            </ons-button>
+          </ons-col>
+        </ons-row>
+      </div>
+
+    </div>
+
+  </ons-page>
+</ons-navigator>   

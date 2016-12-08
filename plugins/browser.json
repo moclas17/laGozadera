@@ -1,0 +1,36 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {},
+    "dependent_plugins": {
+        "com.plugin.datepicker": {
+            "PACKAGE_NAME": "com.example.restaurant"
+        },
+        "de.appplant.cordova.plugin.email-composer": {
+            "PACKAGE_NAME": "com.example.restaurant"
+        },
+        "nl.x-services.plugins.socialsharing": {
+            "PACKAGE_NAME": "com.example.restaurant"
+        },
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.example.restaurant"
+        },
+        "org.apache.cordova.file-transfer": {
+            "PACKAGE_NAME": "com.example.restaurant"
+        },
+        "org.apache.cordova.geolocation": {
+            "PACKAGE_NAME": "com.example.restaurant"
+        },
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.example.restaurant"
+        },
+        "org.apache.cordova.network-information": {
+            "PACKAGE_NAME": "com.example.restaurant"
+        }
+    }
+}

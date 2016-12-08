@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.erikvalle.gozadera" version="0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>La Gozadera</name>
+    <description>
+        App de menu para restaurant la Gozadera.
+    </description>
+    <author email="hola@erikvalle.com" href="http://erikvalle.com">
+        Apps maker pro
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="webviewbounce" value="false" />     
+</widget>
